@@ -36,11 +36,11 @@ const applyTextureFilter = (texture) => {
   return texture
 }
 
-const earthColor = applyTextureFilter(textureLoader.load('/textures/earth/earthmap1k.jpg'))
-const earthBump = applyTextureFilter(textureLoader.load('/textures/earth/earthbump1k.jpg'))
-const earthSpec = applyTextureFilter(textureLoader.load('/textures/earth/earthspec1k.jpg'))
-const earthLights = applyTextureFilter(textureLoader.load('/textures/earth/earthlights1k.jpg'))
-const earthClouds = applyTextureFilter(textureLoader.load('/textures/earth/earthcloudmaptrans.jpg'))
+const earthColor = applyTextureFilter(textureLoader.load('/static/textures/earth/earthmap1k.jpg'))
+const earthBump = applyTextureFilter(textureLoader.load('/static/textures/earth/earthbump1k.jpg'))
+const earthSpec = applyTextureFilter(textureLoader.load('/static/textures/earth/earthspec1k.jpg'))
+const earthLights = applyTextureFilter(textureLoader.load('/static/textures/earth/earthlights1k.jpg'))
+const earthClouds = applyTextureFilter(textureLoader.load('/static/textures/earth/earthcloudmaptrans.jpg'))
 
 // Earth Material (bump + specular)
 const earthMaterial = new THREE.MeshPhongMaterial({
