@@ -30,8 +30,8 @@ scene.add(pointLight)
 const textureLoader = new THREE.TextureLoader()
 
 const applyTextureFilter = (texture) => {
-  texture.minFilter = THREE.NearestFilter
-  texture.magFilter = THREE.LinearFilter
+  texture.minFilter = THREE.LinearFilter
+  texture.magFilter = THREE.NearestFilter
   texture.generateMipmaps = false
   return texture
 }
