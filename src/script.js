@@ -37,7 +37,7 @@ const applyTextureFilter = (texture) => {
 }
 
 const earthColor = applyTextureFilter(textureLoader.load('https://github.com/ClideHiraji/Jagape-ITE18-Act1.9/blob/main/static/textures/earth/earthmap1k.jpg'))
-const earthBump = applyTextureFilter(textureLoader.load('https://github.com/ClideHiraji/Jagape-ITE18-Act1.9/blob/main/static/textures/earth/earthbump1k.jpg
+const earthBump = applyTextureFilter(textureLoader.load('https://github.com/ClideHiraji/Jagape-ITE18-Act1.9/blob/main/static/textures/earth/earthbump1k.jpg'))
 const earthSpec = applyTextureFilter(textureLoader.load('https://github.com/ClideHiraji/Jagape-ITE18-Act1.9/blob/main/static/textures/earth/earthspec1k.jpg'))
 const earthLights = applyTextureFilter(textureLoader.load('https://github.com/ClideHiraji/Jagape-ITE18-Act1.9/blob/main/static/textures/earth/earthlights1k.jpg'))
 const earthClouds = applyTextureFilter(textureLoader.load('https://github.com/ClideHiraji/Jagape-ITE18-Act1.9/blob/main/static/textures/earth/earthcloudmaptrans.jpg'))
